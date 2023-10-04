@@ -1,0 +1,30 @@
+Repositórios Debian 10.
+
+Repositório principal:
+
+deb http://deb.debian.org/debian/ buster main
+deb-src http://deb.debian.org/debian/ buster main
+
+Repositório de atualizações de segurança:
+
+deb http://security.debian.org/debian-security buster/updates main
+deb-src http://security.debian.org/debian-security buster/updates main
+
+Repositório de atualizações:
+
+deb http://deb.debian.org/debian/ buster-updates main
+deb-src http://deb.debian.org/debian/ buster-updates main
+
+Repositório de pacotes contribuídos:
+
+deb http://deb.debian.org/debian/ buster contrib
+deb-src http://deb.debian.org/debian/ buster contrib
+
+Repositório de pacotes não-livres:
+
+deb http://deb.debian.org/debian/ buster non-free
+deb-src http://deb.debian.org/debian/ buster non-free
+
+Certifique-se de que essas entradas estejam presentes e corretamente configuradas no seu arquivo /etc/apt/sources.list ou em arquivos dentro do diretório /etc/apt/sources.list.d/.
+
+Lembre-se de que o Debian 10 (Buster) atingiu seu "fim de vida" em 6 de julho de 2022.
